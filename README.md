@@ -1,8 +1,10 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Hosted URL: https://tutedude-assignment-v6dt.onrender.com/
 
 ## Available Scripts
+1: Clone the Repository 
 
 In the project directory, you can run:
 
