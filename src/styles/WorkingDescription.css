@@ -1,0 +1,224 @@
+.how_works {
+    position: absolute;
+    width: 224px;
+    height: 36px;
+    left: 187px;
+    top: 407px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #800080;
+}
+
+.friends {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 189px;
+    top: 467px;
+    border-radius: 50%;
+    background: rgba(217, 217, 217, 0.25);
+}
+
+.friends_logo {
+    position: absolute;
+    left: 25%;
+    right: 0%;
+    top: 34%;
+    bottom: 25%;
+}
+
+.inviteFriends {
+    position: absolute;
+    width: 151.22px;
+    height: 24px;
+    left: 69px;
+    top: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.description {
+    position: absolute;
+    width: 270.56px;
+    height: 48px;
+    left: 69px;
+    top: 22px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #4D4D4D;
+}
+
+.rupee {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 189px;
+    top: 560px;
+    border-radius: 50%;
+    background: rgba(217, 217, 217, 0.25);
+}
+
+.rupee_logo {
+    left: 20px;
+    top: 18px;
+    position: absolute;
+    right: 0%;
+    bottom: 25%;
+}
+
+.rupee_friend {
+    position: absolute;
+    width: 210px;
+    height: 24px;
+    left: 69px;
+    top: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.wallet {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 189px;
+    top: 660px;
+    border-radius: 50%;
+    background: rgba(217, 217, 217, 0.25);
+}
+
+.wallet_logo {
+    left: 18px;
+    top: 20px;
+    position: absolute;
+    right: 0%;
+    bottom: 25%;
+}
+
+.walletFriends {
+    width: 210px;
+    position: absolute;
+    height: 24px;
+    left: 69px;
+    top: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.coursePurchase {
+    left: 592px;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 467px;
+    border-radius: 50%;
+    background: rgba(217, 217, 217, 0.25);
+}
+
+.course_logo {
+    top: 18px;
+    left: 18px;
+    position: absolute;
+    right: 0%;
+    bottom: 25%;
+}
+
+.courseFriends {
+    width: 244px;
+    position: absolute;
+    height: 24px;
+    left: 69px;
+    top: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.reward {
+    left: 592px;
+    top: 560px;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(217, 217, 217, 0.25);
+}
+
+.reward_logo {
+    left: 17px;
+    top: 17px;
+    position: absolute;
+    right: 0%;
+    bottom: 25%;
+}
+
+.rewardFriends {
+    width: 244px;
+    position: absolute;
+    height: 24px;
+    left: 69px;
+    top: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+@media (max-width: 420px) {
+    .how_works {
+        left: 30px;
+        top: 500px;
+    }
+
+    .friends {
+        left: 22px;
+        top: 560px;
+    }
+
+    .rupee {
+        top: 645px;
+        left: 22px;
+    }
+
+    .rupee_friend {
+        width: 250px;
+    }
+
+    .wallet {
+        top: 730px;
+        left: 22px;
+    }
+
+    .coursePurchase {
+        top: 815px;
+        left: 22px;
+    }
+
+    .reward {
+        left: 22px;
+        top: 900px
+    }
+}

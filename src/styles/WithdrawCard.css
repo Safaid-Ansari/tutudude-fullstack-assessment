@@ -1,0 +1,150 @@
+.Card {
+    display: flex;
+    position: absolute;
+    width: 486px;
+    height: 188px;
+    left: 187px;
+    top: 179px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.referral_earning h5 {
+    width: 111px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #800080;
+    margin: 13px 25px 0px 20px;
+}
+
+.referral_earning h4 {
+    width: 116px;
+    height: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 0px 25px 0px 20px;
+    color: #000000;
+}
+
+.total_earning h5 {
+    width: 100px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #800080;
+    margin: 13px 25px 0px 20px;
+}
+
+.total_earning h4 {
+    height: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+    margin: 0px 25px 0px 20px;
+}
+
+.wallet_balance h5 {
+    width: 105px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #800080;
+    margin: 13px 25px 0px 20px;
+}
+
+.wallet_balance h4 {
+    width: 90px;
+    height: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 0px 25px 0px 20px;
+    color: #000000;
+}
+
+
+.withdraw_balance {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 16px;
+    gap: 10px;
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    left: 145px;
+    top: 119px;
+    background: #800080;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.withdraw_balance h4 {
+    width: 148px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 10px 30px 7px 30px
+}
+
+
+@media (max-width:420px) {
+    .Card {
+        left: 20px;
+        top: 170px;
+        width: 365px;
+    }
+
+    .total_earning h5 {
+        position: absolute;
+        left: 220px;
+    }
+
+    .total_earning h4 {
+        position: absolute;
+        left: 230px;
+        top: 30px;
+    }
+
+    .wallet_balance h5 {
+        position: absolute;
+        left: 0px;
+        top: 100px;
+    }
+
+    .wallet_balance h4 {
+        position: absolute;
+        left: 0px;
+        top: 135px;
+    }
+
+    .withdraw_balance {
+        padding: 0;
+        top: 130px;
+        width: 210px;
+        text-align: center;
+    }
+}

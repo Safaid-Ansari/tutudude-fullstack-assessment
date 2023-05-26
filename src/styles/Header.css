@@ -1,0 +1,146 @@
+.mainHeader {
+    background: #FFFFFF;
+    position: absolute;
+    height: 73.03px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+.logo {
+    position: absolute;
+    width: 160px;
+    height: 63px;
+    left: 74px;
+    top: 6px;
+    background: url(../images/logo.png);
+}
+
+.assignment {
+    width: 140px;
+    height: 22px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.5%;
+    text-align: center;
+    color: rgba(128, 0, 128, 0.25);
+}
+
+.chat {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.5%;
+    text-align: center;
+    color: rgba(128, 0, 128, 0.25);
+}
+
+.vector {
+    display: flex;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.profileLogo {
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+.profileName {
+    width: 111px;
+    height: 22px;
+    color: #800080;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -2px;
+}
+
+.aeroVector {
+    width: 12px;
+    height: 7.41px;
+    margin-top: 5px;
+}
+
+
+.section {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 26px;
+    margin-right: 80px;
+}
+
+
+
+
+@media (max-width:420px) {
+
+
+    .logo {
+        left: 15px;
+        top: 10px;
+    }
+
+    .chat {
+        display: none;
+    }
+
+    .assignment {
+        display: none;
+    }
+
+    .vector {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        width: 145px;
+        height: 34px;
+        left: 240px;
+        top: 22px;
+        background: #800080;
+        border-radius: 10px;
+
+    }
+
+    .profileName {
+        width: 99px;
+        height: 24px;
+        margin-right: 25px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    .profileLogo {
+        display: none;
+    }
+
+    .aeroVector {
+        position: absolute;
+        left: 85%;
+        right: 85%;
+        top: 29.79%;
+        bottom: 33.33%;
+        background: url(../images/aeroVectorWhite.png);
+    }
+
+    .ReferAndEarn {
+        position: absolute;
+        left: -162px;
+        top: 0px;
+
+    }
+
+}
